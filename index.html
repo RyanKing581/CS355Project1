@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gaming Guide</title>
+        <script src="https://kit.fontawesome.com/1a3684c56a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="hiddensearch.css">
+        <link rel="stylesheet" type="text/css" href="carousel.css">
+        <link rel="stylesheet" type="text/css" href="kineticloader.css">
+        <style>
+            .login {
+                float: right;
+            }
+        </style>
+        <style>
+            .footer-section {
+                flex: 1;
+                padding: 10px;
+            }
+        
+            footer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+            }
+        
+            .copyright {
+                flex-basis: 100%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loader"></div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="login">
+                        <a href="login.html">Login</a>
+                        <i class="fab fa-discord"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <main>
+            <h1>Welcome to Our Gaming Guide!</h1>
+            <p>This is your go-to resource for all things gaming! We cover a wide range of games, from the most popular AAA titles to the hidden gems in the indie scene.</p>
+            <p>We specialize in providing comprehensive guides for your favorite games. Our team of gaming experts works tirelessly to ensure every detail is perfect.
+                Our in-depth guides are designed to elevate your gaming experience, enhance your gameplay, and boost your efficiency! Stay tuned for your daily dose of gaming wisdom!</p>
+        </main>
+        <h1>Featured Games</h1>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="image-container" id="imgs">
+                    <img src="images/1.png" alt="first-image">
+                    <img src="images/2.jpg" alt="second-image">
+                    <img src="images/3.png" alt="third-image">
+                    <img src="images/4.jpg" alt="fourth-image">
+                    <img src="images/5.jpg" alt="fifth-image">
+                </div>
+                <div class="buttons-container">
+                    <button id="left" class="carousel-btn">Prev</button>
+                    <button id="right" class="carousel-btn">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-section">
+            <h2>Featured User Reviews</h2>
+            <div class="review">
+                <h3>User Name 1</h3>
+                <p>This website is amazing! The guides are really helpful.</p>
+            </div>
+            <div class="review">
+                <h3>User Name 2</h3>
+                <p>I love the variety of games covered here.</p>
+            </div>
+        </div>
+        <script src="hiddensearch.js"></script>
+        <script src="carousel.js"></script>
+        <script src="loader.js"></script>
+    </body>
+    <footer>
+        <div class="footer-section">
+            <h4>Latest Blog Posts</h4>
+        </div>
+        <div class="footer-section">
+            <h4>Forums</h4>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+        </div>
+        <div class="footer-section">
+            <h4>Newsletter</h4>
+        </div>
+        <div class="footer-section copyright">
+            <p>&copy; 2024 Copyright</p>
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <style>
+            .login {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="login"><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="comment" id="comment" name="comment">Comment or Message:</label><br>
+                <input type="text" id="comment" name="comment"><br>
+                <input type="radio" id="console" name="platform" value="console">
+                <label for="console">Console</label><br>
+                <input type="radio" id="pc" name="platform" value="pc">
+                <label for="pc">PC</label><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Sign me up for the newsletter</label><br>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+</html>
